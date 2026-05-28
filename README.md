@@ -87,13 +87,3 @@ POST   /chat               → chatbot IA
 GET    /chat/history       → historial de chat
 DELETE /chat/history       → limpiar historial
 ```
-
-## Próximas mejoras sugeridas
-
-- [ ] Autenticación JWT (usuarios y roles)
-- [ ] Multi-tenant (varias agencias)
-- [ ] Exportar a CSV/Excel
-- [ ] Recordatorios por email (usando SMTP local)
-- [ ] Estadísticas avanzadas por período
-- [ ] Migración a PostgreSQL para producción
-- [ ] Docker compose para despliegue
